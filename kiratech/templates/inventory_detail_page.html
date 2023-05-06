@@ -1,0 +1,16 @@
+{% autoescape off %}
+<!DOCTYPE html>
+<body>
+    <ul>
+        <b>ID:{{ id }}</b><br/>
+        Name: {{ name }}<br/>
+        Description: {{ description }}<br/>
+        Note: {{ note }}<br/>
+        Stock: {{ stock }}<br/>
+        Supplier: {{ supplier }}<br/>
+        Supplier Name: {{ supplier_name }}<br/>
+        Thumbnail Image: <img src="../media/thumbnail.png" alt="thumbnail-image">
+        <br/>
+    </ul>
+</body>
+{% endautoescape %}

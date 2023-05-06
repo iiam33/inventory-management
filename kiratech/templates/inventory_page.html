@@ -1,0 +1,17 @@
+{% autoescape off %}
+<!DOCTYPE html>
+<body>
+    {% if inventory == null %}
+    {% else %}
+        <ul>
+            {% for i in inventory %}
+                <b>Name: <a href="/inventory/{{i.id}}">{{ i.name }}</a></b>
+                <li>Supplier Name: {{ i.supplier_name }}</li>
+                <li>Availability: {{ i.availability }}</li>
+                <br/>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+
+{% endautoescape %}
