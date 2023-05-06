@@ -15,7 +15,8 @@ $ python manage.py runserver
 2. Navigate to http://localhost:8000.
 
 ### Test
-1. Make sure you are in the correct directory and run the following commands to run the unit test
+1. Make sure you are in the correct directory and the project is running 
+2. Run the following commands to run the unit test
 
 ``` bash
 $ python manage.py test
